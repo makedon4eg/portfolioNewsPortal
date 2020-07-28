@@ -42,6 +42,56 @@ h2 {
 	top: 40px;
 }
 
+.location {
+	width: 72px;
+	position: absolute;
+	top: 50px;
+	left: 180px;
+	background: url("img/arrow.svg") no-repeat;
+	background-size: 8px 5px;
+	background-position: 62px center;
+	
+
+}
+
+.weather {
+	position: absolute;
+	top: 48px;
+	left: 550px;
+}
+
+.temp {
+	position: absolute;
+	top: 35px;
+	left: 590px;
+	color: #b2b2bb;
+}
+
+.search {
+	position: absolute;
+	top: 40px;
+	left: 680px;
+	width: 260px;
+	height: 44px;
+	border-radius: 40px;
+	background-color: #f3f3f3;
+	border: none;
+	padding-left: 20px;
+
+}
+
+ul.navigation {
+	position: absolute;
+	left: -35px;
+
+}
+
+li.navigation {
+	display: inline;
+	margin-right: 35px;
+
+}
+
 #menu-container {
 	height: 70px;
 }
