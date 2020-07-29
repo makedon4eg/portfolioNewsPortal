@@ -83,12 +83,23 @@ h2 {
 ul.navigation {
 	position: absolute;
 	left: -35px;
+	width: 900px;
 
 }
 
 li.navigation {
 	display: inline;
-	margin-right: 35px;
+	margin-right: 11px;
+}
+
+li.navigation a {
+	text-decoration: none;
+	color: black;
+
+}
+
+li.navigation.slash {
+	color: #f0f0f1;
 
 }
 
