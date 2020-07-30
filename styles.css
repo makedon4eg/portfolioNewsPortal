@@ -226,6 +226,7 @@ li.navigation.slash {
 	width: 200px;
 	margin-top: 18px;
 	margin-right: 20px;
+	height: 505px;
 }
 
 .second-line-column2 {
@@ -241,9 +242,32 @@ li.navigation.slash {
 
 }
 
-.second-line-column1 a h3 {
+.second-line-column1 h3 {
 	color: black;
-	max-width:100%;
-	height:auto;
+	width:180px;
+	margin: 0;
+	font-size: 14px;
 
+}
+
+#second-line-column1 {
+	position: relative;
+}
+
+#second-line-column1 a {
+	color: black;
+	padding: 0px;
+	margin: 16px 0px 0px 0px;
+}
+
+#second-line-column1 .news-time {
+	margin: 16px 0px 0px 0px;
+	position: absolute;
+	left: 70px;
+}
+
+#second-line-column1 .news-comments-count {
+	margin: 16px 0px 0px 0px;	
+	position: absolute;
+	left: 135px;
 }
