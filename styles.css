@@ -19,7 +19,7 @@ h1 {
 }
 
 #black-bar {
-	background-color: black;
+	background-color: #00122f;
 	color: white;
 	padding: 20px 0;
 	font-size: 16px;
@@ -327,7 +327,7 @@ li.navigation.slash {
 
 .special-news-container1 {
 	width: 558px;
-	height: 395px;
+	height: 350px;
 	background-image: url("img/special-news.jpg");
 	background-repeat: no-repeat;
 	background-size: 566px 395px;
@@ -363,7 +363,119 @@ li.navigation.slash {
 .special-news-container2 {
 	width: 402px;
 	height: 395px;
-	background-color: aquamarine; 
+}
 
+.special-news-container2 .news-item-text {
+	font-weight: bold;
+	font-size: 16px;
+} 
 
+ #last-news  {
+	margin-bottom: 0px !important;
+
+}
+
+footer  {
+	background-color: #00122f;
+	height: 312px;
+	
+}
+
+#footer {
+	display: flex;
+
+}
+
+.footer-container-1 {
+	width: 320px;
+	height: 255px;
+	padding-top: 56px;
+
+}
+#footer-navigation ul {
+	padding-left: 0px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-height: 200px;
+	margin-top: 0px;
+
+}
+
+footer li {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+
+}
+
+.footer-container-2 {
+	width: 320px;
+	height: 255px;
+	padding-top: 56px;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-container-2 ul {
+	margin-top: 22px;
+
+}
+
+.footer-container-3 {
+	width: 320px;
+	height: 255px;
+	padding-top: 56px;
+	text-align: center;
+}
+
+.footer-container-3 img {
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+#phone {
+	display: block;
+	padding-left: 44px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-image: url("img/phone.svg");
+	background-repeat: no-repeat;
+	font-size: 18px;
+	margin-top: 34px;
+	margin-left: 120px;
+
+}
+
+#mail {
+	display: block;
+	padding-left: 22px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-image: url("img/mail.svg");
+	background-repeat: no-repeat;
+	font-size: 18px;
+	margin-top: 32px;
+	margin-left: 120px;
+}
+
+.watermark {
+	text-align: center;
+	color: #8d9198;
+	font-size: 14px;
+	border-top: 1px solid #26354e;
+	background-color: #00122f;
+	padding-bottom: 20px;
+	padding-top: 20px;	
+}
+
+.watermark P {
+	margin: 0;
 }
